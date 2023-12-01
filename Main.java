@@ -7,6 +7,7 @@ public class Main
         // Atributos
         String[] alphabet_and_more = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z", " ", ".", "!", ",", "?"};
         Scanner sc = new Scanner(System.in);
+        System.out.println("Entre com as palavras:");
         String text = sc.nextLine(); // Substituir por Scanner;
         String[] letters = text.split("");
         String result = "";
